@@ -875,6 +875,7 @@ max-width: 80%
 .nav-center.navbar .nav {
 max-width: 100%        
 }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 .b-parallax {
@@ -911,7 +912,7 @@ width: 100%;
 padding: 0 20px;
 padding-left: 0;
 padding-right: 0;
-        
+}        
 }
 
 @media (max-width: 767px) {
@@ -1061,7 +1062,11 @@ padding-right: 0;
 }
 
 @media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
+.bloc-mob-center-text {
+text-align: center; 
 }
+}
+}
+
+
+
